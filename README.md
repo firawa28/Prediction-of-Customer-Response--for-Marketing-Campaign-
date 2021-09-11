@@ -70,37 +70,37 @@ Sebelum melakukan modeling machine learning, terdapat tahapan yang perlu dilakuk
 ### Modeling
 Disini dilakukan percobaan modeling menggunakan beberapa jenis algoritma. Selanjutnya karena kita memiliki target seimbang, dan kita ingin meningkatkan kualitas prediksi, yaitu dengan meminimalisir false negatif yang terjadi dimana false positif terjadi ketika Actual "Yes" atau berlangganan namun model memprediksi "No" tidak berlangganan maka kita akan menggunakan evaluation score **Recall**. Berikut hasil modeling yang telah dilakukan.
 
-1. Logistic Regression
-   Training       | Testing
-   -------------------------------
-   Akurasi   82%  | Akurasi   81%
-   Precision 81%  | Precision 80%
-   Recall    83%  | Recall    82%
-   F1-Score  82%  | F1-Score  81%
+1. Logistic Regression <br>
+   Training       | Testing <br>
+   ------------------------------- <br>
+   Akurasi   82%  | Akurasi   81% <br>
+   Precision 81%  | Precision 80% <br>
+   Recall    83%  | Recall    82% <br>
+   F1-Score  82%  | F1-Score  81% <br>
 
-2. Random Forest Classifier
-   Training        | Testing
-   -------------------------------
-   Akurasi   100%  | Akurasi   86%
-   Precision 100%  | Precision 82%
-   Recall    100%  | Recall    90%
-   F1-Score  100%  | F1-Score  86%
+2. Random Forest Classifier <br>
+   Training        | Testing <br>
+   ------------------------------- <br>
+   Akurasi   100%  | Akurasi   86% <br>
+   Precision 100%  | Precision 82% <br>
+   Recall    100%  | Recall    90% <br>
+   F1-Score  100%  | F1-Score  86% <br>
 
-3. Adaboost Classifier
-   Training       | Testing
-   -------------------------------
-   Akurasi   82%  | Akurasi   82%
-   Precision 83%  | Precision 82%
-   Recall    80%  | Recall    81%
-   F1-Score  82%  | F1-Score  82%
+3. Adaboost Classifier <br> 
+   Training       | Testing <br>
+   ------------------------------- <br>
+   Akurasi   82%  | Akurasi   82% <br>
+   Precision 83%  | Precision 82% <br>
+   Recall    80%  | Recall    81% <br>
+   F1-Score  82%  | F1-Score  82% <br>
 
-4. Gradient Boosting Classifier
-   Training       | Testing
-   -------------------------------
-   Akurasi   85%  | Akurasi   84%
-   Precision 84%  | Precision 82%
-   Recall    87%  | Recall    87%
-   F1-Score  85%  | F1-Score  85%
+4. Gradient Boosting Classifier <br>
+   Training       | Testing <br>
+   ------------------------------- <br>
+   Akurasi   85%  | Akurasi   84% <br>
+   Precision 84%  | Precision 82% <br>
+   Recall    87%  | Recall    87% <br>
+   F1-Score  85%  | F1-Score  85% <br>
 
 ### Evaluation Score
 Berdasarkan hasil evaluation score di atas kita ketahui bahwa model Gradient Boosting yang memiliki tingkat Recall tertinggi sebesar 87% Selain itu, kalau dapat kita lihat model ini tidak memiliki rentang evaluation score recall pada training dan testing score, sehingga dapat kita simpulkan model ini sangat baik karena tidak terjadi underfitting maupun overfitting. Oleh karena itu, dipilih model Gradient Boosting Classifier untuk melakukan prediksi marketing campaign terhadap customer untuk berlangganan deposito berjangka
