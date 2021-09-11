@@ -20,19 +20,19 @@ Suatu bank XYZ saat ini memiliki produk Depostio Berjangka. Deposito berjangka a
 
 ## Data Understanding
 ### Fiture Data Customer Bank:
-1 - age (numeric) : Umur customer
-2 - job : Tipe dari pekerjaan Customer
-3 - marital : Status perkawinan Customer
-4 - education : Pendidikan Customer
-5 - default: Memiliki kredit secara default?
-6 - balance: Simpanan atau saldo yang dimiliki oleh customer.
-7 - housing: Memiliki pinjaman rumah?
-8 - loan: Memiliki pinjaman pribadi?
+1 - age (numeric) : Umur customer <br>
+2 - job : Tipe dari pekerjaan Customer <br>
+3 - marital : Status perkawinan Customer <br>
+4 - education : Pendidikan Customer <br>
+5 - default: Memiliki kredit secara default? <br>
+6 - balance: Simpanan atau saldo yang dimiliki oleh customer. <br>
+7 - housing: Memiliki pinjaman rumah? <br>
+8 - loan: Memiliki pinjaman pribadi? <br>
 ### Fiture yang berhubungan dengan campaign terakhir dilakukan
-9 - contact: Type contact komunikasi
-10 - month: Bulan terakhir dihubungi
-11 - day: Hari terakhir ketika dihubungi
-12 - duration: Durasi terakhir ketika dihubungi dalam detik. 
+9 - contact: Type contact komunikasi <br>
+10 - month: Bulan terakhir dihubungi <br>
+11 - day: Hari terakhir ketika dihubungi <br>
+12 - duration: Durasi terakhir ketika dihubungi dalam detik. <br>
 
 ### Fiture lain:
 13 - campaign: jumlah kontak yang dilakukan selama kampanye ini.
