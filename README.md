@@ -35,10 +35,10 @@ Suatu bank XYZ saat ini memiliki produk Depostio Berjangka. Deposito berjangka a
 12 - duration: Durasi terakhir ketika dihubungi dalam detik. <br>
 
 ### Fiture lain:
-13 - campaign: jumlah kontak yang dilakukan selama kampanye ini.
-14 - pdays: jumlah hari yang berlalu setelah klien terakhir dihubungi dari kampanye sebelumnya
-15 - previous: jumlah kontak yang dilakukan sebelum kampanye ini dan untuk klien ini
-16 - poutcome: hasil dari kampanye pemasaran sebelumnya
+13 - campaign: jumlah kontak yang dilakukan selama kampanye ini <br>
+14 - pdays: jumlah hari yang berlalu setelah klien terakhir dihubungi dari kampanye sebelumnya <br>
+15 - previous: jumlah kontak yang dilakukan sebelum kampanye ini dan untuk klien ini <br>
+16 - poutcome: hasil dari kampanye pemasaran sebelumnya <br>
 
 ### Target
 17 response: target atau response customer dari marketing campaign
