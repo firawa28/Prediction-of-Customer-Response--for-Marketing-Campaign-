@@ -59,7 +59,7 @@ Sebelum melakukan modeling machine learning, terdapat tahapan yang perlu dilakuk
 4. Masking outlier menggunakan nilai IQR (Interquartile Range).
 
 ### Feature Engineering
-1. Feature Encoding pada feature defaults, housing, loan, education dan target Response.
+1. Label Encoding pada feature defaults, housing, loan, education dan target Response.
 2. One-Hot Encoding pada feature job, marital, contact, poutcome, month.
 
 ### Split Training dan Testing set
