@@ -79,28 +79,28 @@ Disini dilakukan percobaan modeling menggunakan beberapa jenis algoritma. Selanj
    | F1-Score  82%  | F1-Score  81% |
 
 2. Random Forest Classifier <br>
-   Training        | Testing <br>
-   ------------------------------- <br>
-   Akurasi   100%  | Akurasi   86% <br>
-   Precision 100%  | Precision 82% <br>
-   Recall    100%  | Recall    90% <br>
-   F1-Score  100%  | F1-Score  86% <br>
+   | Training | Testing |
+   | --- | --- | 
+   | Akurasi   100%  | Akurasi   86% |
+   | Precision 100%  | Precision 82% |
+   | Recall    100%  | Recall    90% |
+   | F1-Score  100%  | F1-Score  86% |
 
 3. Adaboost Classifier <br> 
-   Training       | Testing <br>
-   ------------------------------- <br>
-   Akurasi   82%  | Akurasi   82% <br>
-   Precision 83%  | Precision 82% <br>
-   Recall    80%  | Recall    81% <br>
-   F1-Score  82%  | F1-Score  82% <br>
+   | Training | Testing |
+   | --- | --- |
+   | Akurasi   82%  | Akurasi   82% |
+   | Precision 83%  | Precision 82% |
+   | Recall    80%  | Recall    81% |
+   | F1-Score  82%  | F1-Score  82% |
 
 4. Gradient Boosting Classifier <br>
-   Training       | Testing <br>
-   ------------------------------- <br>
-   Akurasi   85%  | Akurasi   84% <br>
-   Precision 84%  | Precision 82% <br>
-   Recall    87%  | Recall    87% <br>
-   F1-Score  85%  | F1-Score  85% <br>
+   | Training       | Testing |
+   | --- | --- | 
+   | Akurasi   85%  | Akurasi   84% |
+   | Precision 84%  | Precision 82% |
+   | Recall    87%  | Recall    87% |
+   | F1-Score  85%  | F1-Score  85% |
 
 ### Evaluation Score
 Berdasarkan hasil evaluation score di atas kita ketahui bahwa model Gradient Boosting yang memiliki tingkat Recall tertinggi sebesar 87% Selain itu, kalau dapat kita lihat model ini tidak memiliki rentang evaluation score recall pada training dan testing score, sehingga dapat kita simpulkan model ini sangat baik karena tidak terjadi underfitting maupun overfitting. Oleh karena itu, dipilih model Gradient Boosting Classifier untuk melakukan prediksi marketing campaign terhadap customer untuk berlangganan deposito berjangka
