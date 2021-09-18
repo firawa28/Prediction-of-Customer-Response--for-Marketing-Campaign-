@@ -71,12 +71,12 @@ Sebelum melakukan modeling machine learning, terdapat tahapan yang perlu dilakuk
 Disini dilakukan percobaan modeling menggunakan beberapa jenis algoritma. Selanjutnya karena kita memiliki target seimbang, dan kita ingin meningkatkan kualitas prediksi, yaitu dengan meminimalisir false negatif yang terjadi dimana false positif terjadi ketika Actual "Yes" atau berlangganan namun model memprediksi "No" tidak berlangganan maka kita akan menggunakan evaluation score **Recall**. Berikut hasil modeling yang telah dilakukan.
 
 1. Logistic Regression <br>
-   Training       | Testing <br>
-   ------------------------------- <br>
-   Akurasi   82%  | Akurasi   81% <br>
-   Precision 81%  | Precision 80% <br>
-   Recall    83%  | Recall    82% <br>
-   F1-Score  82%  | F1-Score  81% <br>
+   | Training | Testing |
+   | --- | --- |
+   | Akurasi   82%  | Akurasi   81% |
+   | Precision 81%  | Precision 80% |
+   | Recall    83%  | Recall    82% |
+   | F1-Score  82%  | F1-Score  81% |
 
 2. Random Forest Classifier <br>
    Training        | Testing <br>
