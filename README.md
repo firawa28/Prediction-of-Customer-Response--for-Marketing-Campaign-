@@ -108,19 +108,19 @@ Berdasarkan hasil evaluation score di atas kita ketahui bahwa model Gradient Boo
 ### Feature Importance
 Berdasarkan feature importance menurut model Gradient Boosting feature-feature yang paling berperan besar untuk berlangganan deposito berjangka dapat kita bagi menjadi dua yaitu
 1. Fitur yang berhubungan dengan campaign terakhir dilakukan
-  a. Duration : durasi call yang dilakukan sales dengan customer 
-  b. Success  : hasil campaign dari sebelumnya
-  c. Pdays    : jumlah hari yang berlalu setelah klien terakhir dihubungi dari kampanye sebelumnya
+  a. Duration : durasi call yang dilakukan sales dengan customer <br>
+  b. Success  : hasil campaign dari sebelumnya <br>
+  c. Pdays    : jumlah hari yang berlalu setelah klien terakhir dihubungi dari kampanye sebelumnya <br>
 2. Fitur yang berhubungan dengan data customer
-  a. Housing  : Apakah mempunyai pinjaman rumah (Kontrak) atau tidak?
-  b. Age      : Umur customer
+  a. Housing  : Apakah mempunyai pinjaman rumah (Kontrak) atau tidak? <br>
+  b. Age      : Umur customer <br>
 
 ## Business Recomendation
 Bisnis recommendation yang disarankan adalah ada usaha pencegahan dan usaha penanggulangan
 1. Usaha Pencegahan
-   a. Melakukan improvement pelatihan untuk sales/agent bank XYZ dengan tim pelatihan yang tersedia agar dapat melakukan call duration di atas 4 menit dan menawarkan product secara lebih baik dan menarik.
-   b. Jika hasil campaign secara umum yang telah dilakukan sukses, maka dapat dilanjutkan untuk melakukan campaign pada customer-customer berikutnya dengan metode campaign yang sama.
-   c. Melakukan campaign pada customer yang memilki rumah (tidak kontrak) dan berumur pelajar kisaran 18 - 30 karena berdasarkan hasil EDA para pelajar lebih cenderung untuk berlangganan depisto.
+   a. Melakukan improvement pelatihan untuk sales/agent bank XYZ dengan tim pelatihan yang tersedia agar dapat melakukan call duration di atas 4 menit dan menawarkan product secara lebih baik dan menarik. <br>
+   b. Jika hasil campaign secara umum yang telah dilakukan sukses, maka dapat dilanjutkan untuk melakukan campaign pada customer-customer berikutnya dengan metode campaign yang sama.<br>
+   c. Melakukan campaign pada customer yang memilki rumah (tidak kontrak) dan berumur pelajar kisaran 18 - 30 karena berdasarkan hasil EDA para pelajar lebih cenderung untuk berlangganan depisto.<br>
 
 2. Usaha penanggulangan
    Dengan machine learning tentunya kita dapat memprediksi hasil campaign yang akan terjadi, sehingga jika customer diprediksi menolak berlangganan deposito berjangka kita dapat mempersiapkan terlebih dahulu dengan penawaran yang lebih menarik dan memperkejakan senior sales untuk menangani customer tersebut.
