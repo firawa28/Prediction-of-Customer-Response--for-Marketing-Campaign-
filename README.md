@@ -121,12 +121,12 @@ Berdasarkan feature importance menurut model Gradient Boosting feature-feature y
 
 Bisnis recommendation yang disarankan dibagi menjadi dua, yaitu usaha pencegahan dan usaha penanggulangan
 
-1. Usaha Pencegahan
+1. Usaha Pencegahan <br>
    a. Melakukan improvement pelatihan untuk sales/agent bank XYZ dengan tim pelatihan yang tersedia agar dapat melakukan call duration di atas 4 menit dan menawarkan product secara lebih baik dan menarik. <br>
    b. Jika hasil campaign secara umum yang telah dilakukan sukses, maka dapat dilanjutkan untuk melakukan campaign pada customer-customer berikutnya dengan metode campaign yang sama.<br>
    c. Melakukan campaign pada customer yang memilki rumah (tidak kontrak) dan berumur pelajar kisaran 18 - 30 karena berdasarkan hasil EDA para pelajar lebih cenderung untuk berlangganan depisto.<br>
 
-2. Usaha penanggulangan
+2. Usaha Penanggulangan
    Dengan machine learning tentunya kita dapat memprediksi hasil campaign yang akan terjadi, sehingga jika customer diprediksi menolak berlangganan deposito berjangka kita dapat mempersiapkan terlebih dahulu dengan penawaran yang lebih menarik dan memperkejakan senior sales untuk menangani customer tersebut.
 
 Seluruh bisnis rekomendasi ini tidak memerlukan high cost untuk melakukan improvement, karena improvement bisa dilakukan dari pihak internal sendiri.
