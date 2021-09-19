@@ -106,6 +106,7 @@ Gradient Boosting Classifier <br>
 Berdasarkan hasil evaluation score yang telah dilakukan dari beberapa model, diketahui bahwa model Gradient Boosting yang memiliki tingkat Recall tertinggi sebesar 87%. Selain itu, dapat dilihat bahwa model ini tidak memiliki rentang evaluation score recall pada training dan testing score, sehingga dapat kita simpulkan model ini sangat baik karena tidak terjadi underfitting maupun overfitting. Oleh karena itu, dipilih model Gradient Boosting Classifier untuk melakukan prediksi marketing campaign terhadap customer untuk berlangganan deposito berjangka
 
 ## Feature Importance
+![alt text](https://github.com/firawa28/Prediction-of-Customer-Response-for-Marketing-Campaign/blob/main/Gambar/Feature%20Importance.png "Feature Importance by Model Gradient Boosting")
 
 Berdasarkan feature importance menurut model Gradient Boosting feature-feature yang paling berperan besar untuk berlangganan deposito berjangka dapat kita bagi menjadi dua yaitu
 
