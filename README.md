@@ -95,8 +95,6 @@ Karena kita memiliki target seimbang, dan kita ingin meningkatkan kualitas predi
 
 ### Model Evaluation
 
-Berdasarkan hasil evaluation score yang telah dilakukan dari beberapa model, diketahui bahwa model Gradient Boosting yang memiliki tingkat Recall tertinggi sebesar 87%. Selain itu, kalau dapat kita lihat model ini tidak memiliki rentang evaluation score recall pada training dan testing score, sehingga dapat kita simpulkan model ini sangat baik karena tidak terjadi underfitting maupun overfitting. Oleh karena itu, dipilih model Gradient Boosting Classifier untuk melakukan prediksi marketing campaign terhadap customer untuk berlangganan deposito berjangka
-
 Gradient Boosting Classifier <br>
 | Training | Testing |
 | --- | --- |
@@ -104,6 +102,8 @@ Gradient Boosting Classifier <br>
 | Precision 84% | Precision 82% |
 | Recall 87% | Recall 87% |
 | F1-Score 85% | F1-Score 85% |
+
+Berdasarkan hasil evaluation score yang telah dilakukan dari beberapa model, diketahui bahwa model Gradient Boosting yang memiliki tingkat Recall tertinggi sebesar 87%. Selain itu, dapat dilihat bahwa model ini tidak memiliki rentang evaluation score recall pada training dan testing score, sehingga dapat kita simpulkan model ini sangat baik karena tidak terjadi underfitting maupun overfitting. Oleh karena itu, dipilih model Gradient Boosting Classifier untuk melakukan prediksi marketing campaign terhadap customer untuk berlangganan deposito berjangka
 
 ## Feature Importance
 
