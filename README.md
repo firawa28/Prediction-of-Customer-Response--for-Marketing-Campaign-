@@ -110,11 +110,11 @@ Berdasarkan hasil evaluation score yang telah dilakukan dari beberapa model, dik
 
 Berdasarkan feature importance menurut model Gradient Boosting feature-feature yang paling berperan besar untuk berlangganan deposito berjangka dapat kita bagi menjadi dua yaitu
 
-1. Fitur yang berhubungan dengan campaign terakhir dilakukan
+1. Fitur yang berhubungan dengan campaign terakhir dilakukan <br>
    a. Duration : durasi call yang dilakukan sales dengan customer <br>
    b. Success : hasil campaign dari sebelumnya <br>
    c. Pdays : jumlah hari yang berlalu setelah klien terakhir dihubungi dari kampanye sebelumnya <br>
-2. Fitur yang berhubungan dengan data customer
+2. Fitur yang berhubungan dengan data customer<br>
    a. Housing : Apakah mempunyai pinjaman rumah (Kontrak) atau tidak? <br>
    b. Age : Umur customer <br>
 
